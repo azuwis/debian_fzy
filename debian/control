@@ -1,0 +1,15 @@
+Source: fzy
+Section: utils
+Priority: extra
+Maintainer: Zhong Jianxin <azuwis@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.7
+Homepage: https://github.com/jhawthorn/fzy
+
+Package: fzy
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: a better fuzzy finder
+ Fzy is a fast, simple fuzzy text selector for the terminal with an advanced
+ scoring algorithm.
